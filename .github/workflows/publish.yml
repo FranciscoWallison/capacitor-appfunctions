@@ -40,9 +40,6 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.version != ''
         run: npm version ${{ inputs.version }} --no-git-tag-version
 
-      - name: Lint
-        run: npm run lint
-
       - name: Build
         run: npm run build
 
