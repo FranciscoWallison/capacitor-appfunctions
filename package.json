@@ -14,6 +14,14 @@
   ],
   "author": "agendaAI",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoWallison/capacitor-appfunctions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FranciscoWallison/capacitor-appfunctions/issues"
+  },
+  "homepage": "https://github.com/FranciscoWallison/capacitor-appfunctions#readme",
   "scripts": {
     "verify": "npm run verify:android && npm run verify:web",
     "verify:android": "cd android && ./gradlew clean build test && cd ..",
