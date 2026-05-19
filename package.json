@@ -1,6 +1,6 @@
 {
   "name": "@chicowall/capacitor-appfunctions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Plugin Capacitor que expoe acoes do agendaAI como Android AppFunctions para o Gemini",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
